@@ -4,7 +4,7 @@ import requests
 
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("../.env")
 BOT_TOKEN: str = os.environ.get("API_TOKEN")
 API_URL: str = 'https://api.telegram.org/bot'
 API_FOX_URL: str = 'https://randomfox.ca/floof/'
